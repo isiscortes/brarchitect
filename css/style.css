@@ -3,10 +3,14 @@
 	font-family: 'Lato', sans-serif;
 }
 
+hr{
+	margin: 2% 0;
+}
+
 h1{
 	color: white;
 	text-align: center;
-	margin-top: 3%;
+	margin-top: 15%;
 	margin-bottom: 2%;
 }
 
@@ -14,9 +18,28 @@ h2{
 	text-align: left;
 }
 
+a{
+	color: black;
+	
+}
 p{
 	margin: 2% 0;
-	margin-top: 3%;
+}
+
+nav{
+	background-color: white;
+
+}
+
+
+li{
+	display: inline-block;
+	font-weight: bold;
+}
+
+.bold{
+	font-weight: bold;
+	margin-top: 0px;
 }
 
 .resize{
@@ -28,11 +51,11 @@ p{
 
 .txtwhite{
 	color: white;
+	background-color: black;
 }
 
 .txtgris{
 	color:#A9A9A9 ;
-	
 }
 
 .buttonabout{
@@ -40,12 +63,13 @@ p{
 	background-color: #A9A9A9;
 	display: block;
 	margin: auto;
-}
-
-.textbox{
-	background-color: black;
-	height: 50px;
-	width: 150px;
+	width: 100%;
+	padding: 2%;
+	text-align: center;
+	margin-top: 4%;
+	font-size: 20px;
+	border-radius: 5px;
+	font-weight: bold;
 }
 
 
@@ -53,13 +77,14 @@ p{
 	background-color: black;
 	height: 50px;
 	width: 50px;
+	padding: 2%;
 }
 
 header{
 	background: url(../img/architect.jpg);
 	background-repeat: no-repeat;
-	height: 750px;
-	width: 100%
+	height: 700px;
+	width: 100%;
 }
 
 footer{
@@ -72,26 +97,44 @@ button{
 	background-color: black;
 	color: white;
 	display: block;
-	margin: auto;
+	font-size: 12px;
+	border-radius: 8px;
+	width: 100%;
+	padding: 2%;
 }
 
-fieldset { 
-    display: block;
-    margin-left: 2px;
-    margin-right: 2px;
-    padding-top: 0.35em;
-    padding-bottom: 0.625em;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
-    border: 2px groove (internal value);
-} 
 
+input{
+	width: 100%;
+}
+.bluehouse{
+	background-image: url(../img/house5.jpg);
+	background-size: 90% 90%;
+	background-repeat: no-repeat;
+	height: 250px;
+	padding: 2%;
+}
 
-.grayquare{
+.brickhouse{
+	background-image: url(../img/house2.jpg);
+	background-size: 90% 90%;
+	background-repeat: no-repeat;
+	height: 250px;
+	padding: 2%;
+}
 
-  width:100%;
-  height:1px;
-  background:#A9A9A9;
-  opacity: 80%;
+.purplehouse{
+	background-image: url(../img/house3.jpg);
+	background-size: 90% 90%;
+	background-repeat: no-repeat;
+	height: 250px;
+	padding: 2%;
+}
 
+.barnhouse{
+	background-image: url(../img/house4.jpg);
+	background-size: 90% 90%;
+	background-repeat: no-repeat;
+	height: 250px;
+	padding: 2%;
 }
