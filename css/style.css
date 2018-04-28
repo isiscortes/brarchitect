@@ -1,0 +1,22 @@
+
+*{
+	font-family: 'Lato', sans-serif;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+.cuadrado{
+	background-color: black;
+	height: 50px;
+	width: 50px;
+}
+
+header{
+	background: url(../img/architect.jpg);
+	background-repeat: no-repeat;
+	height: 750px;
+	width: 100%
+}
